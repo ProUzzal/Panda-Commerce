@@ -1,0 +1,30 @@
+.container {
+  margin-bottom: 40px;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+.orange-bg {
+  background-color: #feeae9;
+  border: 2px solid #feeae9;
+  border-radius: 6px;
+}
+.buy-now-button {
+  font-weight: 600;
+  background-image: linear-gradient(to bottom, #ff5898 0%, #ff136f 100%);
+  color: white;
+  padding: 6px;
+
+  border: 2px;
+  border-radius: 4px;
+}
+.price {
+  color: tomato;
+}
